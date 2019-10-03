@@ -1,0 +1,248 @@
+<div id="fbHeader">
+  <h1 id="fbTitle">{{title}}</h1>
+</div>
+
+
+<div id="contents-container">
+  <div id="left-container">
+    <div id="title-container">
+      <h6>Connect with friends and the world around you on Fakebook.</h6>
+    </div>
+    <div id="sub-container">
+      <div class="subtitle-container">
+        <img src="/images/topImg1.png" alt="topImg1">
+        <p><b>See photos and updates</b> from friends in News Feed.</p>
+      </div>
+      <div class="subtitle-container">
+        <img src="/images/topImg2.png" alt="topImg2">
+        <p><b>Share what's new</b> in your life on your Timeline.</p>
+      </div>
+      <div class="subtitle-container">
+        <img src="/images/topImg3.png" alt="topImg3">
+        <p><b>Find more</b> of what you're looking for with Facebook Search.</p>
+      </div>
+    </div>
+  </div>
+  <div id="right-container">
+    <h2>Sign Up</h2>
+    <p>It's quick and easy.</p>
+    <form action="">
+      <div id="form-container">
+        <div class="subform-container">
+          <input class="nameInput" type="text" placeholder="First name">
+          <input class="nameInput" type="text" placeholder="Last name">
+        </div>
+        <input class="formInput" type="text" placeholder="Mobile number or email">
+        <input class="formInput" type="text" placeholder="New password">
+        <label class="label" for="birthday">Birthday</label>
+        <div id="birthInput">
+          <select name="birthMonth">
+            <option value="Jan">Jan</option>
+            <option value="Feb">Feb</option>
+            <option value="Mar">Mar</option>
+            <option value="Apr">Apr</option>
+            <option value="May">May</option>
+            <option value="Jun">Jun</option>
+            <option value="Jul">Jul</option>
+            <option value="Aug">Aug</option>
+            <option value="Sep" selected>Sep</option>
+            <option value="Oct">Oct</option>
+            <option value="Nov">Nov</option>
+            <option value="Dec">Dec</option>
+          </select> 
+          <select name="birthDate">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14" selected>14</option>
+            <option value="15">15</option>
+            <option value="15">16</option>
+            <option value="15">17</option>
+            <option value="15">18</option>
+            <option value="15">19</option>
+            <option value="15">20</option>
+            <option value="15">21</option>
+            <option value="15">22</option>
+            <option value="15">23</option>
+            <option value="15">24</option>
+            <option value="15">25</option>
+            <option value="15">26</option>
+            <option value="15">27</option>
+            <option value="15">28</option>
+            <option value="15">29</option>
+            <option value="15">30</option>
+            <option value="15">31</option>
+          </select> 
+          <select name="birthYear">
+            <option value="Jan">1986</option>
+            <option value="Feb">1987</option>
+            <option value="Mar">1988</option>
+            <option value="Apr">1989</option>
+            <option value="May">1990</option>
+            <option value="Jun">1991</option>
+            <option value="Jul">1992</option>
+            <option value="Aug">1993</option>
+            <option value="1994" selected>1994</option>
+            <option value="Oct">1995</option>
+            <option value="Nov">1996</option>
+            <option value="Dec">1997</option>
+          </select> 
+        </div>
+        <label class="label" for="gender">Gender</label>
+        <div id="radioInput">
+          <div class="radioInput">
+            <input type="radio" id="female" name="female" value="female">
+            <label for="female">Female</label>
+          </div>
+          <div class="radioInput">
+            <input type="radio" id="male" name="male" value="male">
+            <label for="male">Male</label>
+          </div>
+          <div class="radioInput">
+            <input type="radio" id="custom" name="custom" value="custom">
+            <label for="custom">Custom</label>
+          </div>
+        </div>
+      </div>
+      <div id="term-container">
+        <p id="termsp">By clicking Sign Up, you agree to our <a href="https://www.facebook.com/legal/terms/update">Terms</a>. Learn how we collect, use and share your data in our <a href="https://www.facebook.com/about/privacy/update">Data Policy</a>and how we use cookies and similar technology in our <a href="https://www.facebook.com/policies/cookies/">Cookies Policy</a>. You may receive SMS Notifications from us and can opt out any time.</p>
+      </div> 
+      {{!-- <a href="/fb/clicked"><div id="signupB"><div> Sign Up</div></div></a> --}}
+      <div id="signupB" class="js-modal-open" data-target="modal-content" class="js-modal-open" data-target="modal-mix"data-target="modal-content">
+        <div> Sign Up</div>
+      </div>
+     
+      <div class="modal js-modal" id="modal-content">
+        <div class="modal__bg js-modal-close"></div>
+          <div class="message">
+            <p>
+              > <span>Welcome to Facebook!</span>
+            </p>
+            <p>
+              > Facebook builds technologies and services that enable people to connect with each other, build communities, and grow businesses. These Terms govern your use of Facebook, Messenger, and the other products, features, apps, services, technologies, and software we offer (the Facebook Products or Products), except where we expressly state that separate terms (and not these) apply. These Products are provided to you by Facebook Ireland Limited.
+            </p>
+            <p>
+              > We don’t charge you to use Facebook or the other products and services covered by these Terms. Instead, businesses and organizations pay us to show you ads for their products and services. By using our Products, you agree that we can show you ads that we think will be relevant to you and your interests. We use your personal data to help determine which ads to show you.
+            </p>
+            <p>
+              > We don’t sell your personal data to advertisers, and we don’t share information that directly identifies you (such as your name, email address or other contact information) with advertisers unless you give us specific permission. Instead, advertisers can tell us things like the kind of audience they want to see their ads, and we show those ads to people who may be interested. We provide advertisers with reports about the performance of their ads that help them understand how people are interacting with their content. See Section 2 below to learn more.
+            </p>
+            <p>
+              > Our Data Policy explains how we collect and use your personal data to determine some of the ads you see and provide all of the other services described below. You can also go to your settings at any time to review the privacy choices you have about how we use your data.
+            </p>
+            <p>
+              > <span>Provide a personalized experience for you:</span>
+              > Your experience on Facebook is unlike anyone else's: from the posts, stories, events, ads, and other content you see in News Feed or our video platform to the Pages you follow and other features you might use, such as Trending, Marketplace, and search. We use the data we have - for example, about the connections you make, the choices and settings you select, and what you share and do on and off our Products - to personalize your experience.
+            </p>
+            <p>
+              > <span>Connect you with people and organizations you care about:</span>
+              > We help you find and connect with people, groups, businesses, organizations, and others that matter to you across the Facebook Products you use. We use the data we have to make suggestions for you and others - for example, groups to join, events to attend, Pages to follow or send a message to, shows to watch, and people you may want to become friends with. Stronger ties make for better communities, and we believe our services are most useful when people are connected to people, groups, and organizations they care about.
+            </p>
+            <p>
+              > <span>Empower you to express yourself and communicate about what matters to you:</span>
+              > There are many ways to express yourself on Facebook and to communicate with friends, family, and others about what matters to you - for example, sharing status updates, photos, videos, and stories across the Facebook Products you use, sending messages to a friend or several people, creating events or groups, or adding content to your profile. We have also developed, and continue to explore, new ways for people to use technology, such as augmented reality and 360 video to create and share more expressive and engaging content on Facebook.
+            </p>
+            <p>
+              > <span>Help you discover content, products, and services that may interest you:</span>
+              > We show you ads, offers, and other sponsored content to help you discover content, products, and services that are offered by the many businesses and organizations that use Facebook and other Facebook Products. Section 2 below explains this in more detail.
+            </p>
+            <p>
+              > <span>Combat harmful conduct and protect and support our community:</span>
+              > People will only build community on Facebook if they feel safe. We employ dedicated teams around the world and develop advanced technical systems to detect misuse of our Products, harmful conduct towards others, and situations where we may be able to help support or protect our community. If we learn of content or conduct like this, we will take appropriate action - for example, offering help, removing content, blocking access to certain features, disabling an account, or contacting law enforcement. We share data with other Facebook Companies when we detect misuse or harmful conduct by someone using one of our Products.
+            </p>
+            <p>
+              > <span>Use and develop advanced technologies to provide safe and functional services for everyone:</span>
+              > We use and develop advanced technologies - such as artificial intelligence, machine learning systems, and augmented reality - so that people can use our Products safely regardless of physical ability or geographic location. For example, technology like this helps people who have visual impairments understand what or who is in photos or videos shared on Facebook or Instagram. We also build sophisticated network and communication technology to help more people connect to the internet in areas with limited access. And we develop automated systems to improve our ability to detect and remove abusive and dangerous activity that may harm our community and the integrity of our Products.
+            </p>
+            <p>
+              > <span>Research ways to make our services better:</span>
+              > We engage in research to develop, test, and improve our Products. This includes analyzing the data we have about our users and understanding how people use our Products, for example by conducting surveys and testing and troubleshooting new features. Our Data Policy explains how we use data to support this research for the purposes of developing and improving our services.
+            </p>
+            <p>
+              > <span>Provide consistent and seamless experiences across the Facebook Company Products:</span>
+              > Our Products help you find and connect with people, groups, businesses, organizations, and others that are important to you. We design our systems so that your experience is consistent and seamless across the different Facebook Company Products that you use. For example, we use data about the people you engage with on Facebook to make it easier for you to connect with them on Instagram or Messenger, and we enable you to communicate with a business you follow on Facebook through Messenger.
+            </p>
+            <p>
+              > <span>Enable global access to our services:</span>
+              > To operate our global service, we need to store and distribute content and data in our data centers and systems around the world, including outside your country of residence. This infrastructure may be operated or controlled by Facebook, Inc., Facebook Ireland Limited, or its affiliates.
+            </p>
+            <p>
+              > Instead of paying to use Facebook and the other products and services we offer, by using the Facebook Products covered by these Terms you agree that we can show you ads that business and organizations pay us to promote on and off the Facebook Company Products. We use your personal data, such as information about your activity and interests, to show you ads that are more relevant to you.
+            </p>
+            <p>
+              > Protecting people's privacy is central to how we've designed our ad system. This means that we can show you relevant and useful ads without telling advertisers who you are. We don't sell your personal data. We allow advertisers to tell us things like their business goal, and the kind of audience they want to see their ads (for example, people between the age of 18-35 who like cycling). We then show their ad to people who might be interested.
+            </p>
+            <p>
+              > We also provide advertisers with reports about the performance of their ads to help them understand how people are interacting with their content on and off Facebook. For example, we provide general demographic and interest information to advertisers (for example, that an ad was seen by a woman between the ages of 25 and 34 who lives in Madrid and likes software engineering) to help them better understand their audience. We don’t share information that directly identifies you (information such as your name or email address that by itself can be used to contact you or identifies who you are) unless you give us specific permission. Learn more about how Facebook ads work here.
+            </p>
+            <p>
+              > We collect and use your personal data in order to provide the services described above to you. You can learn about how we collect and use your data in our Data Policy. You have controls over the types of ads and advertisers you see, and the types of information we use to determine which ads we show you. Learn more.
+            </p>
+            <p>
+              > <span>Who can use Facebook</span>
+              > When people stand behind their opinions and actions, our community is safer and more accountable. For this reason, you must:
+            </p>
+          </div>
+          <div class="modal__content">
+            <div id="eyeimg-container">
+              <img id="eyeimg" src="/images/eye.gif" alt="">
+            </div>
+            <h2>ARE YOU AWARE OF THIS?: </h2> 
+            <div class="modalimg-container">
+              <div class="modalimgelm-container">
+                <div class="h6-container">
+                  <h6>Your "anonymous" data will be connected to external data</h6>
+                </div>
+                <img class="modalimg" src="/images/mImg2.jpg" alt="facebook">
+              </div>
+              <div class="modalimgelm-container">
+                <div class="h6-container">
+                  <h6 class="middleh6">Your timeline will be filled with biased info</h6>
+                </div>
+                <img class="modalimg" src="/images/fbfeed.gif" alt="fbfeed">
+              </div>
+              <div class="modalimgelm-container">
+                <div class="h6-container">
+                  <h6 class="middleh6">Your choice will be affected</h6>
+                </div>
+                <img class="modalimg" src="/images/mImg1.jpg" alt="trump">
+              </div>
+            </div>
+            <a class="js-modal-close" href="">Close</a>
+        </div>
+      </div>
+    </form>
+    {{!-- <a href="/fb/clicked">test</a> --}}
+    
+    <div class="line"></div>
+    <p><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Create a Page</a> for a celebrity, band or business.</p>
+  </div>
+</div>
+
+<div id="fbFooteer">
+  <div id="lang-container">
+    <a>English (US)</a>
+    <a href="">Nederlands</a>
+    <a href="">Frysk</a>
+    <a href="">Polski</a>
+    <a href="">Türkçe</a>
+    <a href="">Deutsch</a>
+    <a href="">Français (France)</a>
+    <a href="">العربية</a>
+    <a href="">Español</a>
+    <a href="">Português (Brasil)</a>
+    <a href="">Italiano</a>
+  </div>
+  <div></div>
+  <p>Fakebook © 2019</p>
+</div>

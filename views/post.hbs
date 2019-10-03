@@ -1,0 +1,24 @@
+<h1>DB Registration Page</h1>
+
+<h1>Register Print Type</h1>
+<form action="/register/printer" method="post">
+    <input type="text" placeholder="Name" name="name">
+    <button type="submit">Register Print Type</button>
+</form>
+
+<h1>Save Photos/Videos for Print</h1>
+<form action="/register/photo" method="post" enctype="multipart/form-data">
+    <input type="text" name="name">
+    <input type="text" placeholder="Description" name="Description">
+    <input type="text" placeholder="Type" name="Type">
+    <input type="file" name="photo">
+    <input type="submit" value="Save">
+</form>
+
+{{!-- <form action="/register/photo" method="post">
+    <input type="text" placeholder="Name" name="name">
+    <input type="text" placeholder="Path" name="path">
+    <input type="text" placeholder="Description" name="Description">
+    <input type="text" placeholder="Type" name="Type">
+    <button type="submit">Register Photo/Video</button>
+</form> --}}
